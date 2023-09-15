@@ -8,7 +8,7 @@ function App() {
   return (
     <>
      <Header></Header>
-     <main>
+     <main className='container mx-auto'>
       <Courses></Courses>
      </main>
     </>

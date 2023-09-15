@@ -7,6 +7,7 @@ const Courses = () => {
     const [cardData, setCardData] = useState([])
 
     useEffect(() => {
+
         fetch('courseData.json')
             .then(res => res.json())
             .then(data => setCardData(data))
@@ -15,7 +16,7 @@ const Courses = () => {
     console.log(cardData)
     return (
         <div>
-            <div className="grid grid-cols-3 gap-4">
+            <div className="grid grid-cols-3 gap-4 w-3/4">
                 {cardData.map((card, idx) => <Course key={idx} card={card}></Course>)}
             </div>
             
