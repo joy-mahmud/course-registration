@@ -1,0 +1,67 @@
+[
+    {
+      "course_name": "C Programming",
+      "course_credit": 4,
+      "price": 149.99,
+      "details": "Learn the fundamentals of the C programming language, including data types, control structures, and memory management.",
+      "image": "https://i.ibb.co/BtkBHB3/Rectangle-2-2.png"
+    },
+    {
+      "course_name": "Data Structure",
+      "course_credit": 4,
+      "price": 199.99,
+      "details": "Explore advanced data structures and algorithms to solve complex computing problems.",
+      "image": "https://i.ibb.co/LdPWV2F/Rectangle-3.png"
+    },
+    {
+        "course_name": "Algorithm",
+        "course_credit": 3,
+        "price": 149.99,
+        "details": "Master algorithmic techniques and problem-solving strategies for efficient computation.",
+        "image": "https://i.ibb.co/nfhPYqs/Rectangle-2-3.png"
+      },
+    {
+      "course_name": "C++ Programming",
+      "course_credit": 4,
+      "price": 169.99,
+      "details": "Explore object-oriented programming in C++ and develop skills in creating software applications.",
+      "image": "https://i.ibb.co/bPmzW30/Rectangle-2-4.png"
+    },
+    {
+      "course_name": "Object-Oriented Programming with Python",
+      "course_credit": 3,
+      "price": 129.99,
+      "details": "Learn Python, a versatile and widely-used programming language, with a focus on object-oriented programming principles.",
+      "image": "https://i.ibb.co/CvF0WKX/Rectangle-2.png"
+    },
+    {
+      "course_name": "Software Engineering",
+      "course_credit": 4,
+      "price": 199.99,
+      "details": "Master the principles and practices of software engineering, including requirements analysis, design, and testing.",
+      "image": "https://i.ibb.co/fDXpbw4/Rectangle-2-5.png"
+    },
+    {
+      "course_name": "AWS Cloud Computing",
+      "course_credit": 3,
+      "price": 149.99,
+      "details": "Learn cloud computing using Amazon Web Services (AWS) and deploy scalable and reliable applications.",
+      "image": "https://i.ibb.co/dp4VKX0/Rectangle-3-1.png"
+    },
+    {
+      "course_name": "Database Management",
+      "course_credit": 3,
+      "price": 149.99,
+      "details": "Master database management and SQL to efficiently store and retrieve data in relational databases.",
+      "image": "https://i.ibb.co/wc1PwtQ/Rectangle-2-1.png"
+    },
+    {
+      "course_name": "Problem Solving and Algorithms",
+      "course_credit": 3,
+      "price": 129.99,
+      "details": "Develop problem-solving skills and learn algorithmic techniques to tackle complex computational problems.",
+      "image": "https://i.ibb.co/yqNFkTx/Rectangle-2-6.png"
+    }
+   
+  ]
+  
