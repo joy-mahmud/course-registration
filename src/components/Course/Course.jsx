@@ -2,7 +2,7 @@ import { FiDollarSign } from 'react-icons/fi';
 import { BsBook } from 'react-icons/bs';
 import PropTypes from 'prop-types'
 
-const Course = ({ card }) => {
+const Course = ({ card,handleSelectedCourses }) => {
     const { course_name, course_credit, price, details, image } = card
     return (
         <div className="bg-white  p-3  rounded-lg">
@@ -17,13 +17,14 @@ const Course = ({ card }) => {
                     <p className='text-[14px] font-medium text-[#1C1B1B99]'>Credit: {course_credit} hrs</p>
                 </div>
             </div>
-            <button className='bg-[#2F80ED] text-white py-3 rounded-lg w-full mt-3'>select</button>
+            <button  onClick={()=>handleSelectedCourses(course_name,course_credit)} className='bg-[#2F80ED] text-white py-3 rounded-lg w-full mt-3'>select</button>
         </div>
     );
 };
 
 Course.propTypes = {
-    card: PropTypes.object.isRequired
+    card: PropTypes.object.isRequired,
+    handleSelectedCourses: PropTypes.func.isRequired
 }
 
 export default Course;
