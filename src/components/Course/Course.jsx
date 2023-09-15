@@ -5,8 +5,8 @@ import PropTypes from 'prop-types'
 const Course = ({ card,handleSelectedCourses }) => {
     const { course_name, course_credit, price, details, image } = card
     return (
-        <div className="bg-white  p-3  rounded-lg">
-            <img src={image} alt="" />
+        <div className="bg-white  p-3  rounded-lg flex flex-col justify-between">
+            <img className="w-full" src={image} alt="" />
             <h3 className="text-[18px] font-semibold my-4">{course_name}</h3>
             <p className="text-[14px] font-normal mb-3">{details}</p>
 
@@ -17,7 +17,7 @@ const Course = ({ card,handleSelectedCourses }) => {
                     <p className='text-[14px] font-medium text-[#1C1B1B99]'>Credit: {course_credit} hrs</p>
                 </div>
             </div>
-            <button  onClick={()=>handleSelectedCourses(course_name,course_credit)} className='bg-[#2F80ED] text-white py-3 rounded-lg w-full mt-3'>select</button>
+            <button  onClick={()=>handleSelectedCourses(course_name,course_credit,price)} className='bg-[#2F80ED] text-white py-3 rounded-lg w-full mt-3'>select</button>
         </div>
     );
 };
